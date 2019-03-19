@@ -34,6 +34,10 @@ def hit? (number)
 
   if input == 'h'
     deal_card
+  else input == 's'
+
+  else
+    invalud_command(number)
   end
 end
 
