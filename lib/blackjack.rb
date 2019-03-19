@@ -35,7 +35,7 @@ def hit? (number)
   if input == 'h'
     deal_card
     display_card_total += 1
-  else input == 's'
+  elsif input == 's'
 
   else
 
