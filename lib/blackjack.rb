@@ -27,8 +27,8 @@ def initial_round
   puts display_card_total(sum)
 end
 
-def hit? (num)
-  
+def hit? (number)
+
 end
 
 def invalid_command
