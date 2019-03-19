@@ -33,8 +33,8 @@ def hit? (current_total)
   input = get_user_input
 
   if input == 'h'
-    new = deal_card
-    number += new
+    deal = deal_card
+    current_total +
 
   elsif input == 's'
 
