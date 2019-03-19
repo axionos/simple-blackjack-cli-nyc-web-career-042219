@@ -43,9 +43,8 @@ def hit? (current_total)
 end
 
 def invalid_command(input)
-  if input != 'h' && input != 's'
-    puts "Please enter a valid command"
-    prompt_user
+  puts "Please enter a valid command"
+  prompt_user
   end
 end
 
