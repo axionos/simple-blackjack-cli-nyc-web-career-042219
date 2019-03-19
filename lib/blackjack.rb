@@ -54,7 +54,7 @@ end
 def runner
   welcome
   initial_round
-  until total == 22
+  until display_card_total == 22
     hit?
     display_card_total
   end
