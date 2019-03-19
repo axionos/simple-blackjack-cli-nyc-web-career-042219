@@ -31,9 +31,10 @@ end
 def hit? (number)
   prompt_user
   get_user_input
-  if get_user_input == 'h'
-    deal_card    
-  end
+
+  # if get_user_input == 'h'
+  #   deal_card
+  # end
 end
 
 def invalid_command(input)
