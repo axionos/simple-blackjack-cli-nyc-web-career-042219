@@ -25,7 +25,7 @@ end
 def initial_round
   first = deal_card
   second = deal_card
-  returns first + second
+  puts first + second
 end
 
 def hit?
