@@ -31,7 +31,7 @@ def hit? (number)
 
 end
 
-def invalid_command
+def invalid_command(input)
   # code invalid_command here
 end
 
