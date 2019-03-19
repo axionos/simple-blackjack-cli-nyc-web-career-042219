@@ -32,14 +32,14 @@ def hit? (current_total)
   prompt_user
   input = get_user_input
 
-  if input == 'h'
-    new_total = current_total + deal_card
-    return new_total
-  elsif input == 's'
-
-  else
-
-  end
+  # if input == 'h'
+  #   new_total = current_total + deal_card
+  #   return new_total
+  # elsif input == 's'
+  #
+  # else
+  #
+  # end
 end
 
 def invalid_command(input)
