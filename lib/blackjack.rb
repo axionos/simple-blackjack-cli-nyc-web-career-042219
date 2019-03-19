@@ -32,7 +32,9 @@ def hit? (number)
 end
 
 def invalid_command(input)
-  # code invalid_command here
+  if input != 'h' && input != 's'
+    "Please enter a valid command"
+  end
 end
 
 #####################################################
