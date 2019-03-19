@@ -51,10 +51,10 @@ end
 # get every test to pass before coding runner below #
 #####################################################
 
-def runner(total)
+def runner
   welcome
   initial_round
-  until total== 22
+  until hit? == 22
     hit?
     display_card_total
   end
