@@ -28,7 +28,7 @@ def initial_round
   display_card_total(sum)
 end
 
-def hit? (number)
+def hit? (current_card_total)
   prompt_user
   input = get_user_input
 
