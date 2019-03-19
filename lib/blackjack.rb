@@ -37,7 +37,7 @@ def hit? (number)
   else input == 's'
 
   else
-    invalud_command(number)
+    invalud_command()
   end
 end
 
