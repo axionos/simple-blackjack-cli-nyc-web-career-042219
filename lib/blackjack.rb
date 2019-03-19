@@ -58,6 +58,6 @@ def runner(total)
     hit?
 
   end
-end_game
+  end_game
 
 end
