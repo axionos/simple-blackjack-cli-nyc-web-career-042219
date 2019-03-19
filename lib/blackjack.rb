@@ -33,7 +33,7 @@ end
 
 def invalid_command(input)
   if input != 'h' && input != 's'
-    "Please enter a valid command"
+    puts "Please enter a valid command"
   end
 end
 
