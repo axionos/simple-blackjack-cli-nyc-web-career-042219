@@ -34,7 +34,7 @@ def hit? (number)
   if get_user_input == 's'
 
   else get_user_input == 'h'
-
+    deal_card
   end
 end
 
